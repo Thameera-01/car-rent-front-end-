@@ -228,7 +228,7 @@ function renderCars(filter = 'all', customList = null) {
                 
                 <div class="car-specs">
                     <div class="spec">
-                        <div class="spec-icon"><img src="car-seat.png" alt="Seats"></div>
+                        <div class="spec-icon"><img src="https://github.com/user-attachments/assets/5e0497ba-a5a9-4482-9df0-105d49b73ad4" alt="Seats"></div>
                         <div class="spec-label">Seats</div>
                         <div class="spec-value">${car.seats}</div>
                     </div>
@@ -238,7 +238,7 @@ function renderCars(filter = 'all', customList = null) {
                         <div class="spec-value">${car.transmission}</div>
                     </div>
                     <div class="spec">
-                        <div class="spec-icon"><img src="air-conditioner.png" alt="Ac"></div>
+                        <div class="spec-icon"><img src="https://github.com/user-attachments/assets/778afe1c-ca61-480c-ac98-e98b489ca208" alt="Ac"></div>
                         <div class="spec-label">AC</div>
                         <div class="spec-value">${car.ac}</div>
                     </div>
