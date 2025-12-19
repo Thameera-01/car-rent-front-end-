@@ -146,10 +146,7 @@ const carsData = [
         price: "6,500.00",
         badge: "Budget"}
 ];
-//---selection---
-const searchInput = document.getElementById('carSearchInput');
-const suggestionBox = document.getElementById('suggestionBox');
-const carsGrid = document.getElementById('carsGrid');
+
 // HEADER EFFECT
 window.addEventListener('scroll', function() {
     const head = document.getElementById('head');
