@@ -146,21 +146,17 @@ const carsData = [
         price: "6,500.00",
         badge: "Budget"}
 ];
- // --- ELEMENTS ---
-        const carsGrid = document.getElementById('carsGrid');
-        const searchInput = document.getElementById('searchInput');
-        const suggestionBox = document.getElementById('suggestionBox');
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const header = document.getElementById('header');
-        
-        // --- MOBILE MENU LOGIC ---
-        const menuToggle = document.getElementById('mobile-menu');
-        const navLinks = document.getElementById('nav-links');
-        const overlay = document.getElementById('overlay');
 
-        function toggleMenu() {
-            navLinks.classList.toggle('active');
-            overlay.classList.toggle('active');
+//--- moblie
+function toggleMenu() {
+const menu = document.getElementById('menu');
+if (menu.style.display === 'block') {
+menu.style.display = 'none';
+} else {
+menu.style.display = 'block';
+}
+}
+ 
 // HEADER EFFECT
 window.addEventListener('scroll', function() {
     const head = document.getElementById('head');
