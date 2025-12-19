@@ -208,9 +208,9 @@ function renderCars(filter = 'all', customList = null) {
     }
 
     filteredCars.forEach(car => {
-        let gearIcon = "transmission.png"; 
+        let gearIcon = "https://github.com/user-attachments/assets/bf252099-7abb-422d-ad81-8ea004c33ff4"; 
         if (car.transmission === 'Auto') {
-            gearIcon = "automatic-transmission.png";
+            gearIcon = "https://github.com/user-attachments/assets/624b1118-b6a0-4c25-83a3-041544f6373c";
         }
 
         const carCard = document.createElement('div');
